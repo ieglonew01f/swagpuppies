@@ -1,0 +1,2 @@
+class BreedingLevel < ApplicationRecord
+end

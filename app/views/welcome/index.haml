@@ -1,0 +1,14 @@
+- content_for :title do
+  Adorable. Puppies. Marketplace
+- content_for :pagecss do
+  - stylesheet_link_tag "index/index.css"
+- content_for :content do
+  %p
+    %a{:href=>"#{user_facebook_omniauth_authorize_path}"} 
+      Facebook Login
+  %p
+    = current_user.first_name 
+    is logged in
+
+- content_for :pagejs do
+  - javascript_include_tag "index/index.js"
