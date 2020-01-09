@@ -40,7 +40,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'haml'
 
 # Use Bootstrap 4
-gem 'bootstrap', '~> 4.0.0.beta2'
+gem 'bootstrap', '~> 4.3.1'
 
 # Login stuff
 gem 'devise'
